@@ -1,0 +1,50 @@
+{
+  "name": "nanopoly-nanomsg",
+  "version": "0.2.1",
+  "description": "nanopoly plugin for nanomsg transport",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "./node_modules/.bin/jest --coverage",
+    "test": "./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanopoly/nanopoly-nanomsg.git"
+  },
+  "keywords": [
+    "microservices",
+    "soa",
+    "rpc",
+    "nanomsg",
+    "transport",
+    "plugin",
+    "nanopoly"
+  ],
+  "engines": {
+    "node": ">=v6.14.4"
+  },
+  "author": "Umut Aydin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nanopoly/nanopoly-nanomsg/issues"
+  },
+  "homepage": "https://github.com/nanopoly/nanopoly-nanomsg#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "ip": "^1.1.5",
+    "is_js": "^0.9.0",
+    "nanomsg": "^4.1.0",
+    "pino": "^5.13.2",
+    "portfinder": "^1.0.23",
+    "redis": "^2.8.0",
+    "shortid": "^2.2.14"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
