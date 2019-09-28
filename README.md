@@ -58,6 +58,7 @@ nanopoly might ignore them.
 
 ```js
 const { Client, Server } = require('nanopoly-nanomsg');
+const redis = require('redis');
 
 const client = new Client({ log: 'debug' });
 const server = new Server({ log: 'debug' });
